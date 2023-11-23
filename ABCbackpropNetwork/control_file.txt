@@ -1,0 +1,5 @@
+ABCConfig.txt
+Other_TruthTable.txt
+train_config.txt
+weights.txt
+manual_weights.txt
