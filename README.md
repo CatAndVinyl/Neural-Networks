@@ -25,3 +25,65 @@ In the "nano-gpt" folder, you'll find a Jupyter Notebook (`nano_gpt.ipynb`) cont
 4. Run through each cell including the last cell which trains the model. Then run the previous line which will begin generating text:
    ```python
    print([decode(i) for i in zed.tolist()][0])
+
+# makemore
+
+**makemore** is a text generation tool built in PyTorch that takes a single text file as input, where each line represents a training example. The tool generates more text similar to the provided input using various neural network architectures, ranging from simple bi-gram models to the Wavenet architecture. These notebooks are based off Andrej Karpathy's makemore series, which consists of 5 separate videos in the series designed for learning purposes.
+
+## Overview
+
+The "makemore" repository contains several Jupyter Notebooks (`generate_names.ipynb`, `generate_companies.ipynb`, etc.) each demonstrating the usage of the text generation tool for different scenarios. The tool operates as an autoregressive character-level language model, offering a wide range of model choices, from basic bigrams to advanced Transformer architectures, similar to GPT.
+
+## How It Works
+
+1. **Input Data:**
+   - Prepare a text file with each line representing a training example. For instance, you can provide a list of names, company names, valid Scrabble words, etc.
+
+2. **Jupyter Notebooks:**
+   - Explore and run the specific Jupyter Notebook that corresponds to your use case (e.g., `generate_names.ipynb`).
+
+3. **Training:**
+   - Train the text generation model on your input data using a variety of available architectures.
+
+4. **Generation:**
+   - Generate more text based on the trained model. For names, this could result in unique and novel name suggestions, maintaining the style of the input.
+
+## Example Usage
+
+### Generate Names
+
+1. Open the Jupyter Notebook `generate_names.ipynb`:
+
+    ```bash
+    jupyter notebook generate_names.ipynb
+    ```
+
+2. Follow the instructions in the notebook to train and generate new names based on the provided input.
+
+### Generate Companies
+
+1. Open the Jupyter Notebook `generate_companies.ipynb`:
+
+    ```bash
+    jupyter notebook generate_companies.ipynb
+    ```
+
+2. Follow the instructions in the notebook to train and generate new company names.
+
+### Generate Scrabble-like Words
+
+1. Open the Jupyter Notebook `generate_scrabble_words.ipynb`:
+
+    ```bash
+    jupyter notebook generate_scrabble_words.ipynb
+    ```
+
+2. Follow the instructions in the notebook to train and generate new English-like babble using valid Scrabble words.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for improvements, new features, or additional use cases, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
