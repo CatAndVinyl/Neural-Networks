@@ -32,7 +32,7 @@ In the "nano-gpt" folder, you'll find a Jupyter Notebook (`nano_gpt.ipynb`) cont
 
 ## Overview
 
-The "makemore" repository contains several Jupyter Notebooks (`generate_names.ipynb`, `generate_companies.ipynb`, etc.) each demonstrating the usage of the text generation tool for different scenarios. The tool operates as an autoregressive character-level language model, offering a wide range of model choices, from basic bigrams to advanced Transformer architectures, similar to GPT.
+The "makemore" repository contains several Jupyter Notebooks (`Makemore1.ipynb`, `Makemore2.ipynb`, etc.) each demonstrating various neural-network text generation models, best described as as a character-level autoregressive language models.
 
 ## How It Works
 
@@ -51,34 +51,14 @@ The "makemore" repository contains several Jupyter Notebooks (`generate_names.ip
 ## Example Usage
 
 ### Generate Names
-
-1. Open the Jupyter Notebook `generate_names.ipynb`:
-
-    ```bash
-    jupyter notebook generate_names.ipynb
-    ```
-
-2. Follow the instructions in the notebook to train and generate new names based on the provided input.
-
-### Generate Companies
-
-1. Open the Jupyter Notebook `generate_companies.ipynb`:
+1. Edit `names.txt` or replace it with another file of words
+2. Open the Jupyter Notebook `Makemore5.ipynb`:
 
     ```bash
-    jupyter notebook generate_companies.ipynb
+    jupyter notebook Makemore5.ipynb
     ```
+3. Run each cell to train the model; the generated text will appear in the last cell
 
-2. Follow the instructions in the notebook to train and generate new company names.
-
-### Generate Scrabble-like Words
-
-1. Open the Jupyter Notebook `generate_scrabble_words.ipynb`:
-
-    ```bash
-    jupyter notebook generate_scrabble_words.ipynb
-    ```
-
-2. Follow the instructions in the notebook to train and generate new English-like babble using valid Scrabble words.
 
 ## Contributing
 
