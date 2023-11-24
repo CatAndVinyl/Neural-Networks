@@ -59,7 +59,57 @@ The "makemore" repository contains several Jupyter Notebooks (`Makemore1.ipynb`,
     ```
 3. Run each cell to train the model; the generated text will appear in the last cell
 
+# Hand Image Classifier
 
+The **Hand Image Classifier** is a Java-based neural network project designed to classify hand images and determine the count of fingers someone is holding up. This project serves as an introduction to neural networks and image classification, providing a simple yet effective solution for analyzing sanitized hand images.
+
+## Overview
+
+The "Hand Image Classifier" repository contains Java source code (`HandImageClassifier.java`) for a 4-layer feedforward neural network. The network is trained to classify hand images into categories based on the number of fingers displayed.
+
+## Project Structure
+
+- `HandImageClassifier.java`: The main Java class containing the implementation of the neural network.
+- `training_data/`: A folder containing sanitized hand images used for training the neural network.
+- `test_images/`: A folder containing additional hand images for testing the trained network.
+
+## How It Works
+
+1. **Data Preparation:**
+   - Prepare sanitized hand images for training and testing. Organize them into the `training_data` and `test_images` folders.
+
+2. **Neural Network Architecture:**
+   - The neural network has four layers: an input layer, two hidden layers, and an output layer. It is designed for image classification, specifically for determining the number of fingers in a hand image.
+
+3. **Training:**
+   - Execute the `HandImageClassifier.java` file to train the neural network on the provided training data. Adjust hyperparameters as needed.
+
+4. **Testing:**
+   - Test the trained network on new hand images located in the `test_images` folder. The network will classify the images and provide a count of the fingers displayed.
+
+## Running the Project
+
+1. Compile the Java code:
+
+    ```bash
+    javac HandImageClassifier.java
+    ```
+
+2. Run the compiled code:
+
+    ```bash
+    java HandImageClassifier
+    ```
+
+3. Follow on-screen instructions to train and test the neural network.
+
+## Example Usage
+
+1. Prepare sanitized hand images in the `training_data` and `test_images` folders.
+
+2. Compile and run the Java code as described above.
+
+3. Follow the prompts to train the neural network and test it on new hand images.
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements, new features, or additional use cases, feel free to open an issue or submit a pull request.
