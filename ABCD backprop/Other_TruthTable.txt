@@ -1,0 +1,86 @@
+image_recognition
+25 cases:
+activation_files/one1.txt   -> 1 0 0 0 0
+activation_files/one2.txt   -> 1 0 0 0 0
+activation_files/one3.txt   -> 1 0 0 0 0
+activation_files/one4.txt   -> 1 0 0 0 0
+activation_files/one5.txt   -> 1 0 0 0 0
+activation_files/two1.txt   -> 0 1 0 0 0
+activation_files/two2.txt   -> 0 1 0 0 0
+activation_files/two3.txt   -> 0 1 0 0 0
+activation_files/two4.txt   -> 0 1 0 0 0 
+activation_files/two5.txt   -> 0 1 0 0 0
+activation_files/three1.txt -> 0 0 1 0 0
+activation_files/three2.txt -> 0 0 1 0 0
+activation_files/three3.txt -> 0 0 1 0 0
+activation_files/three4.txt -> 0 0 1 0 0
+activation_files/three5.txt -> 0 0 1 0 0
+activation_files/four1.txt  -> 0 0 0 1 0
+activation_files/four2.txt  -> 0 0 0 1 0
+activation_files/four3.txt  -> 0 0 0 1 0
+activation_files/four4.txt  -> 0 0 0 1 0
+activation_files/four5.txt  -> 0 0 0 1 0
+activation_files/five1.txt  -> 0 0 0 0 1
+activation_files/five2.txt  -> 0 0 0 0 1
+activation_files/five3.txt  -> 0 0 0 0 1
+activation_files/five4.txt  -> 0 0 0 0 1
+activation_files/five5.txt  -> 0 0 0 0 1
+activation_files/five1.txt  -> 0 0 0 0 1
+	
+activation_files/four1.txt  -> 0 0 0 1 0	
+activation_files/one1.txt   -> 1 0 0 0 0
+activation_files/three1.txt -> 0 0 1 0 0	
+activation_files/two1.txt   -> 0 1 0 0 0
+activation_files/five2.txt  -> 0 0 0 0 1	
+activation_files/four2.txt  -> 0 0 0 1 0	
+activation_files/one2.txt   -> 1 0 0 0 0	
+activation_files/three2.txt -> 0 0 1 0 0	
+activation_files/two2.txt   -> 0 1 0 0 0
+activation_files/five3.txt  -> 0 0 0 0 1	
+activation_files/four3.txt  -> 0 0 0 1 0	
+activation_files/one3.txt   -> 1 0 0 0 0	 
+activation_files/three3.txt -> 0 0 1 0 0	 
+activation_files/two3.txt   -> 0 1 0 0 0  
+activation_files/five4.txt  -> 0 0 0 0 1	
+activation_files/four4.txt  -> 0 0 0 1 0	
+activation_files/one4.txt   -> 1 0 0 0 0 	
+activation_files/three4.txt -> 0 0 1 0 0	
+activation_files/two4.txt   -> 0 1 0 0 0 
+activation_files/five5.txt  -> 0 0 0 0 1	
+activation_files/four5.txt  -> 0 0 0 1 0	
+activation_files/one5.txt   -> 1 0 0 0 0	 
+activation_files/three5.txt -> 0 0 1 0 0	
+activation_files/two5.txt   -> 0 1 0 0 0
+
+activation_files/one1.txt   -> 1 0 0 0 0
+activation_files/one2.txt   -> 1 0 0 0 0
+activation_files/one3.txt   -> 1 0 0 0 0
+activation_files/one4.txt   -> 1 0 0 0 0
+activation_files/one5.txt   -> 1 0 0 0 0
+activation_files/two1.txt   -> 0 1 0 0 0
+activation_files/two2.txt   -> 0 1 0 0 0
+activation_files/two3.txt   -> 0 1 0 0 0
+activation_files/two4.txt   -> 0 1 0 0 0 
+activation_files/two5.txt   -> 0 1 0 0 0
+activation_files/three1.txt -> 0 0 1 0 0
+activation_files/three2.txt -> 0 0 1 0 0
+activation_files/three3.txt -> 0 0 1 0 0
+activation_files/three4.txt -> 0 0 1 0 0
+activation_files/three5.txt -> 0 0 1 0 0
+activation_files/four1.txt  -> 0 0 0 1 0
+activation_files/four2.txt  -> 0 0 0 1 0
+activation_files/four3.txt  -> 0 0 0 1 0
+activation_files/four4.txt  -> 0 0 0 1 0
+activation_files/four5.txt  -> 0 0 0 1 0
+activation_files/five1.txt  -> 0 0 0 0 1
+activation_files/five2.txt  -> 0 0 0 0 1
+activation_files/five3.txt  -> 0 0 0 0 1
+activation_files/five4.txt  -> 0 0 0 0 1
+activation_files/five5.txt  -> 0 0 0 0 1
+
+
+
+0 0 -> 0 0 0
+1 0 -> 0 1 1
+0 1 -> 0 1 1
+1 1 -> 1 1 0

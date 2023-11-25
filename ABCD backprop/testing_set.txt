@@ -1,0 +1,21 @@
+image_recognition
+5 cases:
+activation_files/five6.txt  -> 0 0 0 0 1	
+activation_files/four6.txt  -> 0 0 0 1 0	
+activation_files/one6.txt   -> 1 0 0 0 0
+activation_files/three6.txt -> 0 0 1 0 0	
+activation_files/two6.txt   -> 0 1 0 0 0
+
+
+
+
+
+
+
+
+
+
+0 0 -> 0 0 0
+1 0 -> 0 1 1
+0 1 -> 0 1 1
+1 1 -> 1 1 0

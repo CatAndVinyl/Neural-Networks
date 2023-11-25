@@ -1,0 +1,5 @@
+Random_Range: -0.5 0.5
+Max_iterations: 400
+Lambda: 0.3
+Exit_error: 0.008
+Preloaded: randomized
