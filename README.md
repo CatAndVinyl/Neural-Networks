@@ -65,7 +65,20 @@ The **Hand Image Classifier** is a Java-based neural network project designed to
 
 ## Overview
 
-The "ABCD backprop" repository contains Java source code (`NeuralNet.java`) for a 4-layer feedforward neural network. The network is trained to classify hand images into categories based on the number of fingers displayed.
+The "ABCD backprop" repository contains Java source code (`NeuralNet.java`) for a 4-layer feedforward neural network. The network is trained to classify hand images into categories based on the number of fingers displayed. Although there are trained weights for hand images already, the 4 layer network should theoretically be able to train on a multitude of simple tasks in addition to image classification.  
+
+## How it works
+The weights are saved to a file where it can then be used for inference in the future, or to continue training the model later on. Manual weights can also be passed in for inference and likewise for training.
+
+## How to Use
+`control_file.txt` contains the input arguments to the main tester. The `Main.java` file will create a network that can either train or run a single-inference - to indicate training or inference, change "Runtime Mode" to "train" or to "run" in the `ABCDConfig.txt`file. The images (or other files of your choice) that are passed in for testing are listed in `testing_set.txt` with the corresponding expected output. The hyperparameters can be changed in the `train_config.txt` file. If no arguments are passed to Main, the `train_config_default` file will be used.
+
+## Example Usage
+   ```bash
+   javac Main.java
+   javac NeuralNet.java
+   java Main control_file.txt
+   ```
 
 ## Contributing
 
