@@ -10,7 +10,7 @@ In the "nano-gpt" folder, you'll find a Jupyter Notebook (`nano_gpt.ipynb`) cont
 
 ## Usage
 
-1. Inside the nanogpt folder, open the Jupyter Notebook `nano_gpt.ipynb`:
+1. Inside the nanogpt folder, open the Jupyter Notebook `nano_gpt.ipynb`, then run:
 
    ```bash
    jupyter notebook nano-gpt.ipynb
